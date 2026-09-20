@@ -1,0 +1,9 @@
+jupyterlab
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+seaborn
+matplotlib
+lifelines
+ucimlrepo

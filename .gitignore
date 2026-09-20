@@ -1,0 +1,11 @@
+# Local data and generated analysis outputs
+data/*.zip
+data/MI.data
+output_images/
+*.png
+
+# Python and Jupyter local state
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
