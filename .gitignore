@@ -1,11 +1,33 @@
-# Local data and generated analysis outputs
-data/*.zip
-data/MI.data
-output_images/
-*.png
+﻿# Downloaded dataset cache (see data/README.md)
+/data/*.zip
+/data/MI.data
 
-# Python and Jupyter local state
+# Regenerable execution outputs
+/results/
+/output_images/
+
+# Python and Jupyter state
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 .venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and editor state
 .env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
